@@ -13,6 +13,7 @@ import {
   View,
   Text,
 } from 'react-native';
+import {FormulariCalcIMC} from './components/FormulariCalcIMC'
 
 export class App extends Component {
   render() {
@@ -22,8 +23,7 @@ export class App extends Component {
           <Text style={[{fontSize:32},styles.colorSecundari]}>Calculadora IMG</Text>
         </View>
         <View style={{flex:2, backgroundColor:'white'}}>
-          {//Ací vindrà el component que crearem 
-          }
+          <FormulariCalcIMC />
         </View>
         <View style={{flex:1}}>
           <Text style={styles.sectionDescription}>Created for 2n DAM</Text>
